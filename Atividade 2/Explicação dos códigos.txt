@@ -1,0 +1,8 @@
+O erro no código é que possui autoacoplamento e baixa coesão
+
+Significa que uma classe está sabendo muito do funcionamento da outra classe ou seja as classes estão ligadas e está mexendo na lógica da outra classe e 
+para evitar isso é criar meios de uma classe somente ver o que eu deixar da outra classe, ou seja tem que criar meios de nenhuma outra classe interferir na 
+lógica do funcionamento da outra classe.
+
+Não é correto deixar qualquer atributo e qualquer método como public então deve-se criar meios de restringir esse método como deixar private 
+pois somente o método no qual foi escrito que terá acesso.
